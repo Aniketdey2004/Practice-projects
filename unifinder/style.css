@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f5;
+    font-family: "Noto Sans JP", sans-serif;
+}
+nav{
+    /* background-color: orange; */
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    color: #121417;
+    border-bottom: 0.5px solid #667582;
+}
+.nav-items{
+    /* background-color: red; */
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.nav-brand i{
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+}
+.nav-links{
+    text-decoration: none;
+    color: #121417;
+    margin-left: 2rem;
+}
+.search-container{
+    width: 15%;
+    background-color: #d9e3ed;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #667582;
+}
+.search-container input{
+    background: transparent;
+    border: none;
+    width: 80%;
+    color: #667582;
+    font-size: 1.1rem;
+}
+.search-container input:focus{
+    outline: none;
+}
+.search-container i{
+    background: transparent;
+}
+main{
+    width: 80%;
+    margin: 4rem auto;
+}
+.search-panel{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.search-bar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.search-bar input{
+    width: 90%;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #667582;
+    border: 1px solid #667582;
+}
+.search-bar label{
+    color: #121417;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.search-icon{
+    color: #121417;
+    background-color: #d9e3ed;
+    height: 3.5rem;
+    width: 3.5rem;
+    align-self: flex-end;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-icon i{
+    background: transparent;
+}
+.search-results{
+    margin-top: 1rem;
+}
+.search-results h1{
+    font-size: 2rem;
+}
+.search-list{
+    margin-top: 1rem;
+    border: 0.5px solid #667582;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    height: 680px;
+}
+.search-list ul{
+    list-style: none;
+    height: 90%;
+    overflow: auto;
+    position: relative;
+}
+#table-header{
+    display: flex;
+    padding: 0 1rem;
+    height: 60px;
+    align-items: center;
+    border-bottom: 0.8px solid #667582;
+}
+.search-list ul li{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 0.8px solid #667582;
+}
+.search-list-header{
+    font-weight: 500;
+}
+.uniname{
+    font-weight: 550;
+    width: 45%;
+}
+.unilocation,.unifounded{
+    color: #667582;
+}
+.unilocation{
+    width: 35%;
+}
+.uniwebsite{
+    width: 20%;
+}
+.capsule{
+    background-color: #d4dae1;
+    padding: 0.5rem 1rem;
+    color: #121417;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+.uniwebsite{
+    text-decoration: none;
+}
+.search-prompt{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-prompt span{
+    padding: 1.5rem 2rem;
+    background-color: #d4dae1;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}

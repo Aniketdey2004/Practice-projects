@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniFinder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-items">
+          <div class="nav-brand">
+            <i class="fa-solid fa-building-columns"></i>
+            <h2 >UniFinder</h2>
+          </div>
+          <a href="#" class="nav-links">Home</a>
+          <a href="#" class="nav-links">About</a>
+          <a href="#" class="nav-links">Contact</a>
+        </div>
+        <div class="search-container">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="search-panel">
+            <div class="Univerity search-bar">
+                <label for="university">Name</label>
+                <input type="text" name="university" id="university" placeholder="University Name">
+            </div>
+            <div class="country search-bar">
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" placeholder="Select Country">
+            </div>
+            <div class="search-icon"><i class="fa fa-search"></i></div>
+        </div>
+        <div class="search-results">
+            <h1>Universities</h1>
+            <div class="search-list">
+              <div id="table-header">
+                  <div class="search-list-header" style="width: 45%;">University</div>
+                  <div class="search-list-header" style="width: 35%;">Location</div>
+                  <div class="search-list-header" style="width: 20%;">Website</div>
+              </div>
+              <div class="search-prompt">
+                <span>Search Universities</span>
+              </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+      Made with &hearts; by Aniket
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

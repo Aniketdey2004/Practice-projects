@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url("./assets/bg_paywall.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    background-color: white;
+    height: 600px;
+    width: 50%;
+    padding: 1.5rem 1.75rem;
+    border-radius: 10px;
+    box-shadow: 1px 3px 9px 3px black;;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header h2{
+    font-size: 1.75rem;
+    color: rgb(48, 48, 164);
+    margin-right: 5px;
+}
+.header i{
+    font-size: 1.5rem;
+}
+.task{
+    margin: 1.5rem 0;
+    height: 88%;
+}
+.task-adder{
+    display: flex;
+    justify-content: space-between;
+}
+.task-adder input{
+    width: 73%;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+}
+.task-adder button{
+    width: 25%;
+    padding: 0.65rem 0.75rem;
+    border-radius: 20px;
+    background-color: rgb(243, 90, 48);
+    color: white;
+    transition: 0.2s all ease-in;
+}
+.task-adder button:hover{
+    cursor: pointer;
+    background-color: rgb(239, 72, 26);
+}
+.task-listed{
+    height: 95%;
+    overflow-y: auto;
+}
+.task-listed ul{
+    list-style: none;
+    margin: 1rem 0;
+     
+}
+.task-listed ul li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 225, 225);
+    margin: 0.35rem 0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+}
+.task-listed ul li span{
+    max-width: 90%;
+}
+.task-listed i{
+    cursor: pointer;
+    transition:color 0.2s ease-in-out;
+}
+.task-listed i:hover{
+  color: rgb(243, 90, 48);
+}
+@media (max-width:1025px){
+    .todo{
+        width: 80%;
+    }
+}
+@media (max-width:450px){
+    .todo{
+    width: 90%;
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+body{
+    background-color: rgb(203, 195, 195);
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    margin: 1.5rem 0;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.first-line,.second-line{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    gap: 1.5rem;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+h2{
+    margin-bottom: 1rem;
+}
+button{
+    padding: 1rem 1.75rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(110, 236, 110);
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+button:hover{
+    color: dimgray;
+}
